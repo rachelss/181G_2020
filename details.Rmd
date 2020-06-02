@@ -1,0 +1,79 @@
+---
+title: "About Class"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+```
+
+**Office Location**: CBLS 377
+
+**Telephone**: 4-5404
+
+**Email**: rsschwartz@uri.edu  
+Please note that I will do my best to respond promptly between 9-5 on weekdays.
+
+**Student Hours**: TBD  
+Please feel free to come by without an appointment during this time. To talk with me during other times please set up a meeting by email.
+
+**Class Days / Time**: MWF 1-1:50pm ENGR 045
+
+**Prerequisites**: None
+
+**Required text**:
+
+
+**Other equipment / material requirements**:
+I recommend bringing a Laptop, Tablet, or Chromebook with internet access. Please contact the instructor if you do not have a laptop and purchasing one would be a financial difficulty. Laptops are available for use in class upon request.
+
+**Assignments**:
+For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester.
+
+Ways to earn points:
+
+1. Class participation: 7 points per class (250 total; three absences permitted without excuse, but please contact the professor if you have circumstances requiring additional absence)
+2. Opening paper: 50 points
+3. Short papers: 100 points per paper (1 paper per week, 12 total, but you may only earn up to 500 points)
+4. Final paper: 200 points
+
+Expectations for class participation: To earn full participation points during class students are expected to engage in discussion in small groups and/or turn in a short reponse to assigned readings and/or respond to questions asked by the professor.
+
+Expectations for short papers:
+
+Each paper should be approximately 300 words.
+Each paper will be written in response to a prompt provided on Friday on Brightspace on the topic for the week.
+The paper will be due by 5pm the following Friday.
+12 prompts will be provided.
+Each paper is worth 100 points.
+Students may write as many or as few papers as necessary to achieve a desired number of points up to 500.
+Writing should be grammatically correct and arguments should be well structured.
+Students should note sources of information, which may include the course texts, additional readings, or other material from a reputable source (check with the professor if you aren’t sure). Examples for citations will be provided, but formal citations are not required.
+Students should use the provided rubric to guide writing and clarify grading.
+
+Expectations for final paper:
+
+Papers should be approximately 2000 words.
+Expectations for the paper are as above; however, the final paper should synthesize materials covered in the course rather than addressing one topic.
+The final paper is due at 5pm on the last day of classes for the term.
+
+**Grades**:
+
+```{r}
+Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "F") 
+Points <- c("940-1000", "900-939", "870-899", "830-869", "800-829", "770-799", "730-769", 
+            "700-729", "670-699", "600-669", "<600")
+
+kable(cbind(Grade,Points), "html") %>%  
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
+
+```
+
+**Special note**:
+If you, or anyone you know, is at risk of going hungry please visit the Rhody Outpost, a food pantry operated by URI. Rhody Outpost is open twice per month at St. Augustine Church at 15 Lower College Rd. For open hours see https://web.uri.edu/deanofstudents/rhody-outpost/ . Rhody Outpost protects the privacy of all visitors. Students may also visit the Jonnycake Center in Peace Dale.

@@ -1,0 +1,41 @@
+---
+title: "BIO/DSP 181G URI Fall 2020"
+subtitle: "The Information Age"
+author: "Instructor: Rachel Schwartz"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+<a href="https://github.com/rachelss/BIO181G_Fall20"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+## Overview
+
+Welcome to BIO181G: The information age
+
+Big data affects virtually every area of our society, from the advertising we see, to how we think about politics, to genome-based medicine. Our ability to collect immense amounts of information has the potential to improve many aspects of our lives, but it can also be misleading and biased. We will consider how data are analyzed and how results from those analyses are used to make policy in an increasingly data-driven world. You will also develop reasoning skills so that you can think critically about the data that is held up in today’s society as providing answers to many questions. This course meets the General Education requirements for Grand Challenge and STEM Knowledge (A1) at URI.
+
+Because this is a Grand Challenge course, it will require you to explore a wide range of subjects, all of which are affected by big data. You will learn to think across disciplinary boundaries, and hopefully you will interact with people with different experiences, majors, and interests. You might end up writing about how algorithms (traditionally the purview of the math or statistics or computer science departments) affect marketing (traditionally addressed in the business department), or how such algorithms might require ethical evaluation (where ethics traditionally falls under the department of philosophy).
+
+## Course Goals
+
+In this course students will learn...
+
+* the strengths and limitations of using data to understand the world
+* different fields where big data is being gathered and used
+* controversies surrounding the collection and use of data, and potential ethical implications
+* how algorithms generate ideas from data
+* to evaluate which data are appropriate for which questions
+* to communicate the above goals in writing
+
+## Student Learning Outcomes
+
+At the end of this course students should be able to…
+
+* explain how data are produced and what makes data trustworthy and reliable
+* appreciate how data can be used to enhance our understanding of our world and in decision-making
+* critically evaluate the presentation and use of data by others
+* understand when data and algorithms are used appropriately and ethically
+* demonstrate that they have accomplished the above learning outcomes in a paper

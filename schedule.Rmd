@@ -1,0 +1,56 @@
+---
+title: "Schedule"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+```
+
+## Meeting Schedule and Overview
+
+```{r, warning=FALSE}
+Day <- c(1:40)
+Date <- c("9/9", "9/11", #1
+          "9/14", "9/16", "9/18", #2
+          "9/21", "9/23", "9/25", #3
+          "9/28", "9/30", "10/2", #4
+          "10/5", "10/7", "10/9", #5
+          "10/12", "10/14", "10/16", #6
+          "10/19", "10/21", "10/23", #7
+          "10/26", "10/28", "10/30", #8
+          "11/2", "11/4", "11/6", #9
+          "11/9", "11/13", #10
+          "11/16", "11/18", "11/20", #11
+          "11/23", "11/25", #12
+          "11/30","12/2", "12/4", #13
+          "12/7", "12/9", "12/11", #14
+          "12/14"
+          )
+Topic <- c("Syllabus and Writing","Intro to Data", #1
+           "Big Data overview", "Ethics", "Ethics", #2
+           "Ethics", rep("Government data",2), #3
+           rep("Government data",3), #4
+           "Government data", rep("Business",2),  #5
+           rep("Business",2), "Social Media", #6
+           rep("Social Media",3), #7
+           rep("Politics",3), #8
+           rep("Medicine",3), #9
+           rep("Environment",2), #10
+           rep("Genomics",3), #11
+           rep("Transportation",2), #12
+           rep("Sports",2),"Art", #13
+           rep("Music",3), #14
+           "Wrapup")
+
+meetings <- cbind(Day, Date, Topic)
+
+kable(meetings, "html") %>%  
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive")) %>%
+  collapse_rows(columns = 3)
+```

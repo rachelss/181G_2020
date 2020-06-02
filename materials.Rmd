@@ -1,0 +1,20 @@
+---
+title: "Class Materials"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Day 1: 9/9
+* [Big Data: Chapter 1](https://books.google.com/books?id=HpHcGAkFEjkC&printsec=frontcover#v=onepage&q&f=false)
+
+* [NYTimes: Will You Graduate - Ask Big Data](https://www.nytimes.com/2017/02/02/education/edlife/will-you-graduate-ask-big-data.html)
+
+* [Washington Post: Big data could solve the college-dropout problem](https://www.washingtonpost.com/news/grade-point/wp/2017/12/12/big-data-could-solve-the-college-dropout-problem)
